@@ -12,12 +12,22 @@
 
 @end
 
-@implementation PLViewController
-
+@implementation PLViewController {
+    NSString *strChecking;
+}
+- (void)dealloc
+{
+    [strChecking release];
+    [super dealloc];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    strChecking = [NSString stringWithFormat:@"Test chingk"];
+    [strChecking retain];
+    NSLog(@"strChecking :%@",strChecking);
+    
 }
 
 - (void)didReceiveMemoryWarning
