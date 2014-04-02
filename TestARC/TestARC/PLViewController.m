@@ -15,17 +15,15 @@
 @implementation PLViewController {
     NSString *strChecking;
 }
-- (void)dealloc
-{
-    [strChecking release];
-    [super dealloc];
+-(void) removeAllElement {
+    NSLog(@"removeAllElement");
+    strChecking = nil;
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     strChecking = [NSString stringWithFormat:@"Test chingk"];
-    [strChecking retain];
     NSLog(@"strChecking :%@",strChecking);
     
 }
