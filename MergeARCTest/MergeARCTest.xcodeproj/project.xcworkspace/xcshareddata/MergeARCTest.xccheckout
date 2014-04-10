@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0FF7C940-A8E5-4987-B8BB-32C051D2B4BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MergeARCTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>236FF6A8-097F-42B0-8DB5-BCE0CF80D8A6</key>
+		<string>https://github.com/rohitk-cuelogic/TestingGit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MergeARCTest/MergeARCTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>236FF6A8-097F-42B0-8DB5-BCE0CF80D8A6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rohitk-cuelogic/TestingGit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>236FF6A8-097F-42B0-8DB5-BCE0CF80D8A6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>236FF6A8-097F-42B0-8DB5-BCE0CF80D8A6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestingGit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

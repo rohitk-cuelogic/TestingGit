@@ -12,12 +12,28 @@
 
 @end
 
-@implementation PLViewController
+@implementation PLViewController {
+    NSString *str;
+}
 
+#pragma mark -
+#pragma mark ==============================
+#pragma mark Memory Management
+#pragma mark ==============================
+
+- (void)dealloc
+{
+    [str release];
+    [super dealloc];
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    str = [NSString stringWithFormat:@"abc"];
+    [str retain];
+    NSLog(@"str :%@",str);
 }
 
 - (void)didReceiveMemoryWarning
