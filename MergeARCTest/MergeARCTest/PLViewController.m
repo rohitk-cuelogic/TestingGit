@@ -15,7 +15,9 @@
 @implementation PLViewController {
     NSString *str;
 }
-
+-(void) isValid {
+    NSLog(@"isValid");
+}
 #pragma mark -
 #pragma mark ==============================
 #pragma mark Memory Management
@@ -27,6 +29,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     str = [NSString stringWithFormat:@"abc"];
     NSLog(@"str :%@",str);
+    [self isValid];
 }
 
 - (void)didReceiveMemoryWarning
