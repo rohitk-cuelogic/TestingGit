@@ -17,6 +17,7 @@
 }
 -(void) isValid {
     NSLog(@"isValid");
+    NSLog(@"on ExportPDF branch");
 }
 #pragma mark -
 #pragma mark ==============================
