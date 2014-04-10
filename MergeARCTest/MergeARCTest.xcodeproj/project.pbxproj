@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B125010218F6735300ECCFCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B125010118F6735300ECCFCF /* UIKit.framework */; };
+		B125010418F6735300ECCFCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B125010318F6735300ECCFCF /* Foundation.framework */; };
+		B125010618F6735300ECCFCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B125010518F6735300ECCFCF /* CoreGraphics.framework */; };
+		B125010C18F6735300ECCFCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B125010A18F6735300ECCFCF /* InfoPlist.strings */; };
+		B125010E18F6735300ECCFCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B125010D18F6735300ECCFCF /* main.m */; };
+		B125011218F6735300ECCFCF /* PLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B125011118F6735300ECCFCF /* PLAppDelegate.m */; };
+		B125011418F6735300ECCFCF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B125011318F6735300ECCFCF /* Default.png */; };
+		B125011618F6735300ECCFCF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B125011518F6735300ECCFCF /* Default@2x.png */; };
+		B125011818F6735300ECCFCF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B125011718F6735300ECCFCF /* Default-568h@2x.png */; };
+		B125011B18F6735300ECCFCF /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B125011A18F6735300ECCFCF /* PLViewController.m */; };
+		B125011E18F6735300ECCFCF /* PLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B125011C18F6735300ECCFCF /* PLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B12500FD18F6735300ECCFCF /* MergeARCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeARCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B125010118F6735300ECCFCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B125010318F6735300ECCFCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B125010518F6735300ECCFCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B125010918F6735300ECCFCF /* MergeARCTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeARCTest-Info.plist"; sourceTree = "<group>"; };
+		B125010B18F6735300ECCFCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B125010D18F6735300ECCFCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B125010F18F6735300ECCFCF /* MergeARCTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MergeARCTest-Prefix.pch"; sourceTree = "<group>"; };
+		B125011018F6735300ECCFCF /* PLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAppDelegate.h; sourceTree = "<group>"; };
+		B125011118F6735300ECCFCF /* PLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLAppDelegate.m; sourceTree = "<group>"; };
+		B125011318F6735300ECCFCF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B125011518F6735300ECCFCF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B125011718F6735300ECCFCF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B125011918F6735300ECCFCF /* PLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
+		B125011A18F6735300ECCFCF /* PLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
+		B125011D18F6735300ECCFCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B12500FA18F6735300ECCFCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B125010218F6735300ECCFCF /* UIKit.framework in Frameworks */,
+				B125010418F6735300ECCFCF /* Foundation.framework in Frameworks */,
+				B125010618F6735300ECCFCF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B12500F218F6735300ECCFCF = {
+			isa = PBXGroup;
+			children = (
+				B125010718F6735300ECCFCF /* MergeARCTest */,
+				B125010018F6735300ECCFCF /* Frameworks */,
+				B12500FE18F6735300ECCFCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12500FE18F6735300ECCFCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12500FD18F6735300ECCFCF /* MergeARCTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B125010018F6735300ECCFCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B125010118F6735300ECCFCF /* UIKit.framework */,
+				B125010318F6735300ECCFCF /* Foundation.framework */,
+				B125010518F6735300ECCFCF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B125010718F6735300ECCFCF /* MergeARCTest */ = {
+			isa = PBXGroup;
+			children = (
+				B125011018F6735300ECCFCF /* PLAppDelegate.h */,
+				B125011118F6735300ECCFCF /* PLAppDelegate.m */,
+				B125011918F6735300ECCFCF /* PLViewController.h */,
+				B125011A18F6735300ECCFCF /* PLViewController.m */,
+				B125011C18F6735300ECCFCF /* PLViewController.xib */,
+				B125010818F6735300ECCFCF /* Supporting Files */,
+			);
+			path = MergeARCTest;
+			sourceTree = "<group>";
+		};
+		B125010818F6735300ECCFCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B125010918F6735300ECCFCF /* MergeARCTest-Info.plist */,
+				B125010A18F6735300ECCFCF /* InfoPlist.strings */,
+				B125010D18F6735300ECCFCF /* main.m */,
+				B125010F18F6735300ECCFCF /* MergeARCTest-Prefix.pch */,
+				B125011318F6735300ECCFCF /* Default.png */,
+				B125011518F6735300ECCFCF /* Default@2x.png */,
+				B125011718F6735300ECCFCF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B12500FC18F6735300ECCFCF /* MergeARCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B125012118F6735300ECCFCF /* Build configuration list for PBXNativeTarget "MergeARCTest" */;
+			buildPhases = (
+				B12500F918F6735300ECCFCF /* Sources */,
+				B12500FA18F6735300ECCFCF /* Frameworks */,
+				B12500FB18F6735300ECCFCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeARCTest;
+			productName = MergeARCTest;
+			productReference = B12500FD18F6735300ECCFCF /* MergeARCTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B12500F418F6735300ECCFCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Cuelogic;
+			};
+			buildConfigurationList = B12500F718F6735300ECCFCF /* Build configuration list for PBXProject "MergeARCTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B12500F218F6735300ECCFCF;
+			productRefGroup = B12500FE18F6735300ECCFCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B12500FC18F6735300ECCFCF /* MergeARCTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B12500FB18F6735300ECCFCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B125010C18F6735300ECCFCF /* InfoPlist.strings in Resources */,
+				B125011418F6735300ECCFCF /* Default.png in Resources */,
+				B125011618F6735300ECCFCF /* Default@2x.png in Resources */,
+				B125011818F6735300ECCFCF /* Default-568h@2x.png in Resources */,
+				B125011E18F6735300ECCFCF /* PLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B12500F918F6735300ECCFCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B125010E18F6735300ECCFCF /* main.m in Sources */,
+				B125011218F6735300ECCFCF /* PLAppDelegate.m in Sources */,
+				B125011B18F6735300ECCFCF /* PLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B125010A18F6735300ECCFCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B125010B18F6735300ECCFCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B125011C18F6735300ECCFCF /* PLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B125011D18F6735300ECCFCF /* en */,
+			);
+			name = PLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B125011F18F6735300ECCFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B125012018F6735300ECCFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B125012218F6735300ECCFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeARCTest/MergeARCTest-Prefix.pch";
+				INFOPLIST_FILE = "MergeARCTest/MergeARCTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B125012318F6735300ECCFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MergeARCTest/MergeARCTest-Prefix.pch";
+				INFOPLIST_FILE = "MergeARCTest/MergeARCTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B12500F718F6735300ECCFCF /* Build configuration list for PBXProject "MergeARCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B125011F18F6735300ECCFCF /* Debug */,
+				B125012018F6735300ECCFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B125012118F6735300ECCFCF /* Build configuration list for PBXNativeTarget "MergeARCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B125012218F6735300ECCFCF /* Debug */,
+				B125012318F6735300ECCFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B12500F418F6735300ECCFCF /* Project object */;
+}
