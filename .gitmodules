@@ -1,0 +1,3 @@
+[submodule "TestFrameworkName"]
+	path = TestFrameworkName
+	url = https://github.com/rohitk-cuelogic/TestFramework.git
